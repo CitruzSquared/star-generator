@@ -8,18 +8,28 @@
     <style>
         body {
             padding: 0;
-            margin: 0;
+            margin-left: 5%;
+	margin-right: 5%;
         }
     </style>
 </head>
 
-<body style="background-color:#282828;font-family:Arial;color:white;">
-    <main>
-        <script src=" ../p5.js">
+<body style="background-color:#282828;font-family:Courier New;color:white;">
+<h1 style="width: 100%; text-align:center"> Star Generator </h1>
+
+<label for="xseed"> Longitude Seed: </label>
+<input type="number" id="xseed" name="xseed"><br><br>
+<label for="yseed"> Latitude Seed: </label>
+<input type="number" id="yseed" name="yseed"><br><br>
+<label for="mseed"> Magnitude Seed: </label>
+<input type="number" id="mseed" name="mseed"><br><br>
+
+
+        <script src=" p5.js">
         </script>
         <!-- <script src="../addons/p5.sound.js"></script> -->
+<h3> Finished Star Map: </h3>
         <script src="sketch.js"></script>
-    </main>
 </body>
 
 </html>
